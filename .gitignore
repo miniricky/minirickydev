@@ -1,0 +1,40 @@
+# Ignore sensitive configuration files
+/web/sites/*/settings.php
+/web/sites/*/services.yml
+
+# Ignore cache directories and temporary uploads
+/web/sites/*/files/*
+!web/sites/*/files/config_*/
+/web/sites/*/private
+/web/sites/*/temp
+
+# Pero permitir explícitamente la carpeta 'sync'
+
+# Ignore external dependencies
+/vendor/
+/web/node_modules/
+
+# Ignore automatically generated directories
+/web/core/
+/web/autoload.php
+
+# Ignore local settings
+.envrc
+*.local
+
+# Ignore OS-specific files and publishers
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+.idea/
+.vscode/
+
+# Ignore unnecessary Composer settings
+composer.lock
+
+# Ignore local Drush settings
+drush/sites/
+
+# Ignore customization or test files
+/web/web.config
