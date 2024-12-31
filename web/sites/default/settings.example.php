@@ -760,14 +760,15 @@ $settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.yml';
  * allowed by your site.
  *
  * For example:
- * @code
- * $settings['trusted_host_patterns'] = [
- *   '^example\.com$',
- *   '^.+\.example\.com$',
- *   '^example\.org$',
- *   '^.+\.example\.org$',
- * ];
- * @endcode
+ * @code */
+
+$settings['trusted_host_patterns'] = [
+  '^minirickydev\.test$',
+  '^miniricky\.dev$',
+  '^www\.miniricky\.dev$',
+];
+
+ /* @endcode 
  * will allow the site to run off of all variants of example.com and
  * example.org, with all subdomains included.
  *
