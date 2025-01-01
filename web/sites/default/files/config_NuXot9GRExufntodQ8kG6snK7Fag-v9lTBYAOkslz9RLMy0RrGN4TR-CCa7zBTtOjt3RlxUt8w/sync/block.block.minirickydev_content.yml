@@ -1,0 +1,22 @@
+uuid: 8f5d9603-3493-45df-a785-725f43d5816e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - minirickydev
+_core:
+  default_config_hash: aYtIWCX0MULp8QLSsbWx573KGDar3cs71DT_kHzvQp8
+id: minirickydev_content
+theme: minirickydev
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,27 @@
+uuid: 4a6a905d-89d2-4fd0-893d-96a2ff8ed1c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - minirickydev
+_core:
+  default_config_hash: w_2dZKF6dYjZVUEzqGGbbrrgS0GvRro7g9ITsMXxVZs
+id: minirickydev_footer
+theme: minirickydev
+region: footer
+weight: -6
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Footer
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

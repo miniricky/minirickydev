@@ -1,0 +1,22 @@
+uuid: c25e986d-2899-41f3-a259-7253c7ad3116
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - minirickydev
+_core:
+  default_config_hash: PizeTjtXV54lyItuXsDaI6-RSrmgv13366Vfii0AO9I
+id: minirickydev_messages
+theme: minirickydev
+region: content
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 9535c517-b132-442f-a520-7096678715c5
+langcode: en
+status: true
+dependencies:
+  theme:
+    - minirickydev
+_core:
+  default_config_hash: wD0bJ63ufofL50epdGy3k2SeifSMBV6aVmfaNuuRygU
+id: minirickydev_page_title
+theme: minirickydev
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

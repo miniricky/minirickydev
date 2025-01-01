@@ -1,0 +1,22 @@
+uuid: 23787031-b2a7-47fc-b52d-c68b21e72276
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - minirickydev
+_core:
+  default_config_hash: 98R9vhsb4ObOfTZ8Yqads9FuffXfKqNOblBEgBNXTuY
+id: minirickydev_help
+theme: minirickydev
+region: content
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

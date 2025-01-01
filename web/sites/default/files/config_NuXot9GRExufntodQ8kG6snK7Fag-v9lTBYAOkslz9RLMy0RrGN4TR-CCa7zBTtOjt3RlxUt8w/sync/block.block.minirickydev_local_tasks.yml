@@ -1,0 +1,22 @@
+uuid: 7b20f2fd-b1b2-4a93-bf20-0398b3656e4f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - minirickydev
+_core:
+  default_config_hash: axL-d7LU6DQA8F00rwLLpggdYr2Ch9QxnUeZnOt22OU
+id: minirickydev_local_tasks
+theme: minirickydev
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

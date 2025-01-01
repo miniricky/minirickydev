@@ -1,0 +1,22 @@
+uuid: 740e7372-8864-44c5-a832-b39418cee052
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - minirickydev
+_core:
+  default_config_hash: asLShcuBcnUWMm4a3q3QU8hCWbkI9hf6nJUspKicVsE
+id: minirickydev_breadcrumbs
+theme: minirickydev
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }
