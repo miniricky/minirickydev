@@ -31,9 +31,6 @@ Thumbs.db
 .idea/
 .vscode/
 
-# Ignore unnecessary Composer settings
-composer.lock
-
 # Ignore local Drush settings
 drush/sites/
 
