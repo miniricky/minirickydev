@@ -1,0 +1,25 @@
+uuid: 9e4aae5d-5643-4e05-b313-dc42aa9edfce
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:copyright:c844ff6c-94f0-4cea-91d7-567b8271d3fb'
+  module:
+    - block_content
+  theme:
+    - minirickydev
+id: minirickydev_copyright
+theme: minirickydev
+region: footer_bottom
+weight: -6
+provider: null
+plugin: 'block_content:c844ff6c-94f0-4cea-91d7-567b8271d3fb'
+settings:
+  id: 'block_content:c844ff6c-94f0-4cea-91d7-567b8271d3fb'
+  label: Copyright
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
